@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "project": "mini-DSH-bot",
+  "prepared_on": "2026-10-31",
+  "files": [
+    {
+      "source": "project_micro_DSH/github_public/README.md",
+      "path": "README.md",
+      "source_sha256": "be184b64f8dd5bfe8afb49b3a427f962a3228dd495a0a3fffaad1f6f96ee153f",
+      "sha256": "be184b64f8dd5bfe8afb49b3a427f962a3228dd495a0a3fffaad1f6f96ee153f",
+      "bytes": 3855
+    },
+    {
+      "source": "project_micro_DSH/github_public/GPT_CONTEXT.md",
+      "path": "GPT_CONTEXT.md",
+      "source_sha256": "039a991c71ba7efe0fb9270aee8779a647bfc9848201377324688bcf0bd4fba8",
+      "sha256": "039a991c71ba7efe0fb9270aee8779a647bfc9848201377324688bcf0bd4fba8",
+      "bytes": 1803
+    },
+    {
+      "source": "project_micro_DSH/github_public/ARCHITECTURE.md",
+      "path": "ARCHITECTURE.md",
+      "source_sha256": "df7dfcb2165c0f0ff732d35ec943c51da55a363afe1607f32332ffbbd4d5ba34",
+      "sha256": "df7dfcb2165c0f0ff732d35ec943c51da55a363afe1607f32332ffbbd4d5ba34",
+      "bytes": 2805
+    },
+    {
+      "source": "project_micro_DSH/github_public/RESULTS.md",
+      "path": "RESULTS.md",
+      "source_sha256": "8f77d8cf3fb4895a05d0df217ffed2859b03bbf3f350a241f645c835dff2ad49",
+      "sha256": "8f77d8cf3fb4895a05d0df217ffed2859b03bbf3f350a241f645c835dff2ad49",
+      "bytes": 2419
+    },
+    {
+      "source": "project_micro_DSH/github_public/.gitignore",
+      "path": ".gitignore",
+      "source_sha256": "2a225ec15f874764e895a752ca38c002cdbcb849c3dec4249b0a6e796fc2dd87",
+      "sha256": "2a225ec15f874764e895a752ca38c002cdbcb849c3dec4249b0a6e796fc2dd87",
+      "bytes": 187
+    },
+    {
+      "source": "project_micro_DSH/THIRD_PARTY_NOTICES.md",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "e291bf4e735f8c10b525e5aeb745adf384f3b59a6241de95ed2e97ecb7260f60",
+      "sha256": "e291bf4e735f8c10b525e5aeb745adf384f3b59a6241de95ed2e97ecb7260f60",
+      "bytes": 2147
+    },
+    {
+      "source": "project_micro_DSH/package.json",
+      "path": "package.json",
+      "source_sha256": "26af859bf44232042f14ce5a88d122633edfd0c2268ef2ae224fcee8ebb4287b",
+      "sha256": "26af859bf44232042f14ce5a88d122633edfd0c2268ef2ae224fcee8ebb4287b",
+      "bytes": 648
+    },
+    {
+      "source": "project_micro_DSH/pnpm-lock.yaml",
+      "path": "pnpm-lock.yaml",
+      "source_sha256": "8c2e5ee937faa9abc3a2950b00c4ee5f55ba79b69f6693d98be830913262b56e",
+      "sha256": "8c2e5ee937faa9abc3a2950b00c4ee5f55ba79b69f6693d98be830913262b56e",
+      "bytes": 40109
+    },
+    {
+      "source": "project_micro_DSH/tsconfig.json",
+      "path": "tsconfig.json",
+      "source_sha256": "8a4c0b73833012674c08791f07d0922424ba1618e6cfa4d73651e669b026df32",
+      "sha256": "3abc99181def658d76e06ef164a6a71534ac4bd376895efa3e722516bf495537",
+      "bytes": 318
+    },
+    {
+      "source": "project_micro_DSH/src/adapters/deepseek-harness-tool-calls.ts",
+      "path": "src/adapters/deepseek-harness-tool-calls.ts",
+      "source_sha256": "79792b9361887bbfa43bcfd86c771bb4918c9b9c243d5afb81b198d723c04d49",
+      "sha256": "79792b9361887bbfa43bcfd86c771bb4918c9b9c243d5afb81b198d723c04d49",
+      "bytes": 5244
+    },
+    {
+      "source": "project_micro_DSH/src/adapters/openai-compatible.ts",
+      "path": "src/adapters/openai-compatible.ts",
+      "source_sha256": "79b3c1179c079145854aaf45c240ecf72b9c01d7bb092e2adbe98dbfe2010cb7",
+      "sha256": "79b3c1179c079145854aaf45c240ecf72b9c01d7bb092e2adbe98dbfe2010cb7",
+      "bytes": 43737
+    },
+    {
+      "source": "project_micro_DSH/src/adapters/scripted-search.ts",
+      "path": "src/adapters/scripted-search.ts",
+      "source_sha256": "173162ab8108871af6647dabcd17c4ca4eb440d4a3e2777348a1fedfcb302359",
+      "sha256": "173162ab8108871af6647dabcd17c4ca4eb440d4a3e2777348a1fedfcb302359",
+      "bytes": 1108
+    },
+    {
+      "source": "project_micro_DSH/src/context/README.md",
+      "path": "src/context/README.md",
+      "source_sha256": "ac70abf52212b425f07ceed86d02879d8a84cf3191577ff530da482f0a7fb344",
+      "sha256": "4de2e7e45fac7c9c0a28fded134d29bbd65ca5bb9ea2f778898c6b8ea2a5739f",
+      "bytes": 316
+    },
+    {
+      "source": "project_micro_DSH/src/context/task-context.ts",
+      "path": "src/context/task-context.ts",
+      "source_sha256": "66ce6bfb5b86378d43c9b07dfdf896782593e06a088b794af995ded900db7563",
+      "sha256": "66ce6bfb5b86378d43c9b07dfdf896782593e06a088b794af995ded900db7563",
+      "bytes": 1905
+    },
+    {
+      "source": "project_micro_DSH/src/contracts.ts",
+      "path": "src/contracts.ts",
+      "source_sha256": "f226671067dc48facfd9b2c371a4c922265ebd5039fe04f58d849768c8f997d4",
+      "sha256": "f226671067dc48facfd9b2c371a4c922265ebd5039fe04f58d849768c8f997d4",
+      "bytes": 7181
+    },
+    {
+      "source": "project_micro_DSH/src/core/agent-loop.ts",
+      "path": "src/core/agent-loop.ts",
+      "source_sha256": "685cdaae007f4d8655c1dfb3fa528b4ea49021f90bad2c50043b72e9bccf5f39",
+      "sha256": "685cdaae007f4d8655c1dfb3fa528b4ea49021f90bad2c50043b72e9bccf5f39",
+      "bytes": 42318
+    },
+    {
+      "source": "project_micro_DSH/src/core/README.md",
+      "path": "src/core/README.md",
+      "source_sha256": "f2acb6e0233ceab22ddf8daff9bb643326636ec55c1ff8e9abd4bc37a4e83192",
+      "sha256": "442591b03d80d6072a73566d5c769288b481428cd108b3fb82502399dd071237",
+      "bytes": 189
+    },
+    {
+      "source": "project_micro_DSH/src/core/token-estimation.ts",
+      "path": "src/core/token-estimation.ts",
+      "source_sha256": "b49299d92751339047ceeb12c2436e4d5adf847831574527de2686d08e2610e4",
+      "sha256": "b49299d92751339047ceeb12c2436e4d5adf847831574527de2686d08e2610e4",
+      "bytes": 1240
+    },
+    {
+      "source": "project_micro_DSH/src/index.ts",
+      "path": "src/index.ts",
+      "source_sha256": "8d8d0a8d55ed50eb5e14cc6cc39ba19fe12d13eb1486ac50285afef202397c04",
+      "sha256": "820155189e1c6542c27c049761a95f7e2f0dfd3136304875d635729e1a316b81",
+      "bytes": 1367
+    },
+    {
+      "source": "project_micro_DSH/src/memory/in-memory-memory-store.ts",
+      "path": "src/memory/in-memory-memory-store.ts",
+      "source_sha256": "2b24d4e1d0ad892688f474b52cc5b88bb3a601e28b1a22e6f613ecf270ad7a83",
+      "sha256": "2b24d4e1d0ad892688f474b52cc5b88bb3a601e28b1a22e6f613ecf270ad7a83",
+      "bytes": 8887
+    },
+    {
+      "source": "project_micro_DSH/src/memory/README.md",
+      "path": "src/memory/README.md",
+      "source_sha256": "08b819efbda479bdddfe3994b96b3e4bb3c98c725d24d99bee58e61e58c80d95",
+      "sha256": "91f7988cf57ed24e92ae452b1ac40c92c40a8be3efa5eb66679cab72246835c0",
+      "bytes": 347
+    },
+    {
+      "source": "project_micro_DSH/src/memory/store.ts",
+      "path": "src/memory/store.ts",
+      "source_sha256": "bd0fe0c2193f9302bcca937cd3f0e759deef441fefe3f58537282116dbb01196",
+      "sha256": "bd0fe0c2193f9302bcca937cd3f0e759deef441fefe3f58537282116dbb01196",
+      "bytes": 148
+    },
+    {
+      "source": "project_micro_DSH/src/multi_agent/jev-choice-router.ts",
+      "path": "src/multi_agent/jev-choice-router.ts",
+      "source_sha256": "2c3f24b9d6c5fbef3904a8387101d7256a66d1afd2eb5c622026ae9fc9a3e094",
+      "sha256": "2c3f24b9d6c5fbef3904a8387101d7256a66d1afd2eb5c622026ae9fc9a3e094",
+      "bytes": 18497
+    },
+    {
+      "source": "project_micro_DSH/src/multi_agent/README.md",
+      "path": "src/multi_agent/README.md",
+      "source_sha256": "7abbd4cc45977f2c0de9879d9e87d5974abdddf3321879f98c63f72dab74b80b",
+      "sha256": "e363c92bdf8b9767a75feb5e9fb13e4ea40706255414d86e33bf632326781fca",
+      "bytes": 438
+    },
+    {
+      "source": "project_micro_DSH/src/multi_agent/supervisor.ts",
+      "path": "src/multi_agent/supervisor.ts",
+      "source_sha256": "c80567f2bbc5caf089a3abfbf37281be024e3b46f2b155c8f81bfe5e0c6c6dd6",
+      "sha256": "c80567f2bbc5caf089a3abfbf37281be024e3b46f2b155c8f81bfe5e0c6c6dd6",
+      "bytes": 40418
+    },
+    {
+      "source": "project_micro_DSH/src/service/README.md",
+      "path": "src/service/README.md",
+      "source_sha256": "3a404ce1451a669d85ccf015895f0e42c25e6cd56e5d9906c9e3feb7a3cadb1c",
+      "sha256": "8314d9b012041bbefc2e716b7c2ef26bc193643588d1c0485455790759488ba8",
+      "bytes": 484
+    },
+    {
+      "source": "project_micro_DSH/src/session/event-journal.ts",
+      "path": "src/session/event-journal.ts",
+      "source_sha256": "a4081a6b05ba09e1c3b5f77e9b22a9b6ada38f8286676d0de348a7344a8166a6",
+      "sha256": "a4081a6b05ba09e1c3b5f77e9b22a9b6ada38f8286676d0de348a7344a8166a6",
+      "bytes": 3437
+    },
+    {
+      "source": "project_micro_DSH/src/session/in-memory-session-store.ts",
+      "path": "src/session/in-memory-session-store.ts",
+      "source_sha256": "30ddf2331dc20cd13c6d92642e219f494522527ba6b9052b48c5cf7c0aa9d31f",
+      "sha256": "30ddf2331dc20cd13c6d92642e219f494522527ba6b9052b48c5cf7c0aa9d31f",
+      "bytes": 2654
+    },
+    {
+      "source": "project_micro_DSH/src/session/README.md",
+      "path": "src/session/README.md",
+      "source_sha256": "497364c925b6ea3677466d542220cfeb497e65edc61ec6612e91f81ff932c392",
+      "sha256": "e6743f675c6b397010335ca905b5f9342a2d74feeb61862be0eec0e45ee13361",
+      "bytes": 393
+    },
+    {
+      "source": "project_micro_DSH/src/session/task-store.ts",
+      "path": "src/session/task-store.ts",
+      "source_sha256": "5944995bafd1cfe6528c3d793a852d740792968e0bbe45557110d7a81ec8c80e",
+      "sha256": "5944995bafd1cfe6528c3d793a852d740792968e0bbe45557110d7a81ec8c80e",
+      "bytes": 2899
+    },
+    {
+      "source": "project_micro_DSH/src/telemetry/README.md",
+      "path": "src/telemetry/README.md",
+      "source_sha256": "0e53ab3562b1b2def9cf16115b2a8748b71c9115567aea650fdb4911e72c2af4",
+      "sha256": "9ca0e424ebb8f0e036d9951e54e912b00aa9150525092b0d87e659313203b924",
+      "bytes": 519
+    },
+    {
+      "source": "project_micro_DSH/src/tools/README.md",
+      "path": "src/tools/README.md",
+      "source_sha256": "ec2ff71c3f1da5467b195a090bb66ccf30b3be269b533ad4f6c69fe284f600b4",
+      "sha256": "08b6d1f7354ad89b74fc1a848016e5a413ec4b413a3eb9e8670f874cde1e2a2f",
+      "bytes": 214
+    },
+    {
+      "source": "project_micro_DSH/src/tools/registry.ts",
+      "path": "src/tools/registry.ts",
+      "source_sha256": "72d54d10e96c7a2ff54fca211e6ad71835f87724acd48ac381c53504d8950b06",
+      "sha256": "72d54d10e96c7a2ff54fca211e6ad71835f87724acd48ac381c53504d8950b06",
+      "bytes": 6557
+    },
+    {
+      "source": "project_micro_DSH/service/bot/harness-client.mjs",
+      "path": "service/bot/harness-client.mjs",
+      "source_sha256": "07d4a2e44ce020dba380120d591d155f76c78fbe54ab6bbfc5cbe558187de94c",
+      "sha256": "07d4a2e44ce020dba380120d591d155f76c78fbe54ab6bbfc5cbe558187de94c",
+      "bytes": 3349
+    },
+    {
+      "source": "project_micro_DSH/service/bot/runtime.mjs",
+      "path": "service/bot/runtime.mjs",
+      "source_sha256": "27e370bff110508273f29ef40b46ad237483c6a2886e8e02757d5ffe9f5968d9",
+      "sha256": "27e370bff110508273f29ef40b46ad237483c6a2886e8e02757d5ffe9f5968d9",
+      "bytes": 7103
+    },
+    {
+      "source": "project_micro_DSH/service/bot/server.mjs",
+      "path": "service/bot/server.mjs",
+      "source_sha256": "ff49fd817c67e59ec800e6d6048fa9fb574d5c9511c0c1e7cddfa546b717d6d9",
+      "sha256": "ff49fd817c67e59ec800e6d6048fa9fb574d5c9511c0c1e7cddfa546b717d6d9",
+      "bytes": 8566
+    },
+    {
+      "source": "project_micro_DSH/service/bot/store.mjs",
+      "path": "service/bot/store.mjs",
+      "source_sha256": "f8d2765d3c1a099afe1c41d8d8e215f269d71080d83ea8d5ef33514a513499ba",
+      "sha256": "f8d2765d3c1a099afe1c41d8d8e215f269d71080d83ea8d5ef33514a513499ba",
+      "bytes": 42746
+    },
+    {
+      "source": "project_micro_DSH/service/browser/001_browser.sql",
+      "path": "service/browser/001_browser.sql",
+      "source_sha256": "d3318c139d4e8aa5ec67ac61d2e9f288c2ef01dc0bd8fd322cf69f0c5b8d3af1",
+      "sha256": "d3318c139d4e8aa5ec67ac61d2e9f288c2ef01dc0bd8fd322cf69f0c5b8d3af1",
+      "bytes": 2980
+    },
+    {
+      "source": "project_micro_DSH/service/browser/configuration.mjs",
+      "path": "service/browser/configuration.mjs",
+      "source_sha256": "1186dcd703c6ccb7ae9438c21025390686a92215ca64285d6c11267e1bbcb381",
+      "sha256": "1186dcd703c6ccb7ae9438c21025390686a92215ca64285d6c11267e1bbcb381",
+      "bytes": 3082
+    },
+    {
+      "source": "project_micro_DSH/service/browser/http.mjs",
+      "path": "service/browser/http.mjs",
+      "source_sha256": "c75f84c03db5eb8d9337891252ced5f9086cb7cf59ff7c209be58614d8c40d2b",
+      "sha256": "c75f84c03db5eb8d9337891252ced5f9086cb7cf59ff7c209be58614d8c40d2b",
+      "bytes": 5064
+    },
+    {
+      "source": "project_micro_DSH/service/browser/playwright-driver.mjs",
+      "path": "service/browser/playwright-driver.mjs",
+      "source_sha256": "91c875ad2751fb0f18905e575bcc59430f9f8723fcc8af29a6a3c6fc9a3d51e4",
+      "sha256": "182eff21eb373d446f60599e6f9df896960a8c202528134c70f8866286246eb9",
+      "bytes": 43524
+    },
+    {
+      "source": "project_micro_DSH/service/browser/postgres-store.mjs",
+      "path": "service/browser/postgres-store.mjs",
+      "source_sha256": "398a39e91cffa23661df75a694bf7594d1df0cbb9a157b03df34d8538cd4903a",
+      "sha256": "398a39e91cffa23661df75a694bf7594d1df0cbb9a157b03df34d8538cd4903a",
+      "bytes": 31870
+    },
+    {
+      "source": "project_micro_DSH/service/browser/profile-vault.mjs",
+      "path": "service/browser/profile-vault.mjs",
+      "source_sha256": "d889104583f75f1fe342ee316b8f62d2fa071759936e86dade3c2fef67cbfe42",
+      "sha256": "d889104583f75f1fe342ee316b8f62d2fa071759936e86dade3c2fef67cbfe42",
+      "bytes": 4184
+    },
+    {
+      "source": "project_micro_DSH/service/browser/provider.mjs",
+      "path": "service/browser/provider.mjs",
+      "source_sha256": "53151a934e246286032e7ece06b6f984de7fae241a3612857133fe22dc7b6609",
+      "sha256": "53151a934e246286032e7ece06b6f984de7fae241a3612857133fe22dc7b6609",
+      "bytes": 7030
+    },
+    {
+      "source": "project_micro_DSH/service/browser/runtime.mjs",
+      "path": "service/browser/runtime.mjs",
+      "source_sha256": "a6afa4baa84893a3520b347e000cc37c68cc7a127174043d31fb749fa64dcfc1",
+      "sha256": "a6afa4baa84893a3520b347e000cc37c68cc7a127174043d31fb749fa64dcfc1",
+      "bytes": 23609
+    },
+    {
+      "source": "project_micro_DSH/service/browser/ui-assets.mjs",
+      "path": "service/browser/ui-assets.mjs",
+      "source_sha256": "98f353fbef93fa84addb4906ffa3e9db2eddcbc64e83221f9b239876391954e5",
+      "sha256": "98f353fbef93fa84addb4906ffa3e9db2eddcbc64e83221f9b239876391954e5",
+      "bytes": 2312
+    },
+    {
+      "source": "project_micro_DSH/service/database.mjs",
+      "path": "service/database.mjs",
+      "source_sha256": "6f7269672ec31a9667dd437882c26d940767305c12cdc1ca3d238a97bb632025",
+      "sha256": "6f7269672ec31a9667dd437882c26d940767305c12cdc1ca3d238a97bb632025",
+      "bytes": 11417
+    },
+    {
+      "source": "project_micro_DSH/service/fastify-server.mjs",
+      "path": "service/fastify-server.mjs",
+      "source_sha256": "80c00a5b7bc602c97e3c92bdf15b9aedc395e263668753f808000ff57e3b96af",
+      "sha256": "80c00a5b7bc602c97e3c92bdf15b9aedc395e263668753f808000ff57e3b96af",
+      "bytes": 702
+    },
+    {
+      "source": "project_micro_DSH/service/mcp/host.mjs",
+      "path": "service/mcp/host.mjs",
+      "source_sha256": "e9726bae693cfa73116ed69e7fac57d05211bf1f5fdeb08e4cd17cfb98ef5b67",
+      "sha256": "e9726bae693cfa73116ed69e7fac57d05211bf1f5fdeb08e4cd17cfb98ef5b67",
+      "bytes": 28929
+    },
+    {
+      "source": "project_micro_DSH/service/migrations/001_initial.sql",
+      "path": "service/migrations/001_initial.sql",
+      "source_sha256": "c8ebc8398eb76cce7276ae11d3f155445f62bb8123c640db19309cebcc3af59f",
+      "sha256": "c8ebc8398eb76cce7276ae11d3f155445f62bb8123c640db19309cebcc3af59f",
+      "bytes": 1554
+    },
+    {
+      "source": "project_micro_DSH/service/postgres-database.mjs",
+      "path": "service/postgres-database.mjs",
+      "source_sha256": "c997fa4ab7197c2fde408b2af633534e4b488e64b44326380ac6dce02a94e25b",
+      "sha256": "c997fa4ab7197c2fde408b2af633534e4b488e64b44326380ac6dce02a94e25b",
+      "bytes": 12053
+    },
+    {
+      "source": "project_micro_DSH/service/redis-quota.mjs",
+      "path": "service/redis-quota.mjs",
+      "source_sha256": "fbb135de119f56963d900a76bb324272830392d3d8e1736577f5cfc1d82ff436",
+      "sha256": "fbb135de119f56963d900a76bb324272830392d3d8e1736577f5cfc1d82ff436",
+      "bytes": 2352
+    },
+    {
+      "source": "project_micro_DSH/service/review/mcp-server.mjs",
+      "path": "service/review/mcp-server.mjs",
+      "source_sha256": "748a931432d1da9869068fba6a82979adef7910cba2c4c1164f9ae88c90b34d9",
+      "sha256": "748a931432d1da9869068fba6a82979adef7910cba2c4c1164f9ae88c90b34d9",
+      "bytes": 4422
+    },
+    {
+      "source": "project_micro_DSH/service/review/report-validation.mjs",
+      "path": "service/review/report-validation.mjs",
+      "source_sha256": "1de6771b847b2147e24c65af571fdc26f4c8f92796461a384a4df537931c2487",
+      "sha256": "1de6771b847b2147e24c65af571fdc26f4c8f92796461a384a4df537931c2487",
+      "bytes": 6639
+    },
+    {
+      "source": "project_micro_DSH/service/review/repository-tools.mjs",
+      "path": "service/review/repository-tools.mjs",
+      "source_sha256": "611be9bd8200ef37ed2f30d66feb27320c531c4aec4bed967bc734038bc26711",
+      "sha256": "611be9bd8200ef37ed2f30d66feb27320c531c4aec4bed967bc734038bc26711",
+      "bytes": 20626
+    },
+    {
+      "source": "project_micro_DSH/service/security/guard.mjs",
+      "path": "service/security/guard.mjs",
+      "source_sha256": "3175947f7488ce3cda76e2881eecd7ae602cf37d7bde5bdb2ad1d6a62fde27cd",
+      "sha256": "3175947f7488ce3cda76e2881eecd7ae602cf37d7bde5bdb2ad1d6a62fde27cd",
+      "bytes": 8744
+    },
+    {
+      "source": "project_micro_DSH/service/server.mjs",
+      "path": "service/server.mjs",
+      "source_sha256": "85630e5a8f66d2bea96ef4c2f01042e0c5227c3585aec41a52a5c9b101325012",
+      "sha256": "85630e5a8f66d2bea96ef4c2f01042e0c5227c3585aec41a52a5c9b101325012",
+      "bytes": 118382
+    },
+    {
+      "source": "project_micro_DSH/service/tool-configuration.mjs",
+      "path": "service/tool-configuration.mjs",
+      "source_sha256": "ee1335e02399655c9f1cc8cc12a5b838229fb1a0979297305c08407333032ba0",
+      "sha256": "ee1335e02399655c9f1cc8cc12a5b838229fb1a0979297305c08407333032ba0",
+      "bytes": 3317
+    },
+    {
+      "source": "project_micro_DSH/desktop/backend.mjs",
+      "path": "desktop/backend.mjs",
+      "source_sha256": "7c2ce67c20b4a4253ab85c00de3606a86c38434b477449c03e5879437cb89f42",
+      "sha256": "0d6ccab9ca074ae91afb0988b8f0599ccb8b0005885f2d00b101733cc7571234",
+      "bytes": 43127
+    },
+    {
+      "source": "project_micro_DSH/desktop/browser-state.mjs",
+      "path": "desktop/browser-state.mjs",
+      "source_sha256": "47bf8b1e835f3ee63e4a0cc4c9665e0e3c3dbf1652a9dd8dd4d6f1a620181854",
+      "sha256": "47bf8b1e835f3ee63e4a0cc4c9665e0e3c3dbf1652a9dd8dd4d6f1a620181854",
+      "bytes": 3076
+    },
+    {
+      "source": "project_micro_DSH/desktop/electron-driver.mjs",
+      "path": "desktop/electron-driver.mjs",
+      "source_sha256": "cd28b009274827c68b4f204d9783e405448507d7ef95850097359ca440904f12",
+      "sha256": "a6595495a74ca347060f723d5f3787ba4f47720b3f02a46e618a75376d522ca6",
+      "bytes": 53526
+    },
+    {
+      "source": "project_micro_DSH/desktop/main.mjs",
+      "path": "desktop/main.mjs",
+      "source_sha256": "99453891fc47015bd16d59ef6a8c59b5ec834ba8528f9b59cdb22137299a99d6",
+      "sha256": "99453891fc47015bd16d59ef6a8c59b5ec834ba8528f9b59cdb22137299a99d6",
+      "bytes": 22185
+    },
+    {
+      "source": "project_micro_DSH/desktop/package.json",
+      "path": "desktop/package.json",
+      "source_sha256": "aa376e691edc59f0c59d5f0905caf36e90027a8dd9754dbce64b5408c0a5dd93",
+      "sha256": "aa376e691edc59f0c59d5f0905caf36e90027a8dd9754dbce64b5408c0a5dd93",
+      "bytes": 367
+    },
+    {
+      "source": "project_micro_DSH/desktop/preload.cjs",
+      "path": "desktop/preload.cjs",
+      "source_sha256": "5ef585ed9de47a240bb79ef111ea9f41bf88447637a2a8403e65c10a3c0a380a",
+      "sha256": "5ef585ed9de47a240bb79ef111ea9f41bf88447637a2a8403e65c10a3c0a380a",
+      "bytes": 1303
+    },
+    {
+      "source": "project_micro_DSH/desktop/start.mjs",
+      "path": "desktop/start.mjs",
+      "source_sha256": "672afa212df18897f451b7a89349a2da31358d0800f4dcaad81893eacf95acc0",
+      "sha256": "672afa212df18897f451b7a89349a2da31358d0800f4dcaad81893eacf95acc0",
+      "bytes": 627
+    },
+    {
+      "source": "project_micro_DSH/desktop/task-journal.mjs",
+      "path": "desktop/task-journal.mjs",
+      "source_sha256": "bbcb3699d3fd4579f046d1995546598ae9400e3643e075556ccfdcc4ddfd0035",
+      "sha256": "bb5a110ba238deaa44e3f75af466e431fbe3e815e7dd16a9dde74b531ad8b783",
+      "bytes": 22888
+    },
+    {
+      "source": "project_micro_DSH/desktop/ui/app.js",
+      "path": "desktop/ui/app.js",
+      "source_sha256": "b9cf114b51e4895f34982047939d9dd1c1a9b7973a4b9c1a0e6e57e645f7cfe6",
+      "sha256": "b9cf114b51e4895f34982047939d9dd1c1a9b7973a4b9c1a0e6e57e645f7cfe6",
+      "bytes": 31911
+    },
+    {
+      "source": "project_micro_DSH/desktop/ui/index.html",
+      "path": "desktop/ui/index.html",
+      "source_sha256": "139563cbc6e008b6b5224c825dd88a9562990f1661139067b855dec23383b5ac",
+      "sha256": "139563cbc6e008b6b5224c825dd88a9562990f1661139067b855dec23383b5ac",
+      "bytes": 13001
+    },
+    {
+      "source": "project_micro_DSH/desktop/ui/style.css",
+      "path": "desktop/ui/style.css",
+      "source_sha256": "eedb1cd748dec6dbccd229f9c89edd5223760ca7ab2186b8b3f5ae835aa82cac",
+      "sha256": "eedb1cd748dec6dbccd229f9c89edd5223760ca7ab2186b8b3f5ae835aa82cac",
+      "bytes": 30005
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/.gitignore",
+      "path": "runtime-go/.gitignore",
+      "source_sha256": "67e233a2b1b2d01120fd30bd8c6e03a1de7559ca5a3b269fd3d3a80fe72f9a16",
+      "sha256": "67e233a2b1b2d01120fd30bd8c6e03a1de7559ca5a3b269fd3d3a80fe72f9a16",
+      "bytes": 59
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/cmd/dsh-runtime/main.go",
+      "path": "runtime-go/cmd/dsh-runtime/main.go",
+      "source_sha256": "7c8387f19ed90f0556eef073d4e8c02c715aa62bdb99405caa559cf697085d52",
+      "sha256": "7c8387f19ed90f0556eef073d4e8c02c715aa62bdb99405caa559cf697085d52",
+      "bytes": 1347
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/go.mod",
+      "path": "runtime-go/go.mod",
+      "source_sha256": "b3fd19265911446e245b5dc0cf068e78221a6b5fc8c3dc981382f1468d6e75d9",
+      "sha256": "b3fd19265911446e245b5dc0cf068e78221a6b5fc8c3dc981382f1468d6e75d9",
+      "bytes": 600
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/go.sum",
+      "path": "runtime-go/go.sum",
+      "source_sha256": "b4cd8ca85cebbb7db63cfc66aa00ec7752b57fdf769d97ed9cfc2f9bbdeb654d",
+      "sha256": "b4cd8ca85cebbb7db63cfc66aa00ec7752b57fdf769d97ed9cfc2f9bbdeb654d",
+      "bytes": 4081
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/config.go",
+      "path": "runtime-go/internal/runtime/config.go",
+      "source_sha256": "8e2c7da2f2eff645d89db4fafed51b27a80e4b528453eaee12a9ab9a174dc823",
+      "sha256": "8e2c7da2f2eff645d89db4fafed51b27a80e4b528453eaee12a9ab9a174dc823",
+      "bytes": 4738
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/server.go",
+      "path": "runtime-go/internal/runtime/server.go",
+      "source_sha256": "da2271490dd63f3141da8b6885e09f5f5cc9babb5465a4af96bdca4f965aab66",
+      "sha256": "da2271490dd63f3141da8b6885e09f5f5cc9babb5465a4af96bdca4f965aab66",
+      "bytes": 26846
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/server_test.go",
+      "path": "runtime-go/internal/runtime/server_test.go",
+      "source_sha256": "7e86986964c1d2cd50f6d4a23b7ba2720ed5f23fac10e187145e34c9b957a42d",
+      "sha256": "7e86986964c1d2cd50f6d4a23b7ba2720ed5f23fac10e187145e34c9b957a42d",
+      "bytes": 18251
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/store.go",
+      "path": "runtime-go/internal/runtime/store.go",
+      "source_sha256": "07e2aadf9f1398c499c02fa11f9c76a8ededaca3615f46f3c5c05d9818442938",
+      "sha256": "07e2aadf9f1398c499c02fa11f9c76a8ededaca3615f46f3c5c05d9818442938",
+      "bytes": 23091
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/store_test.go",
+      "path": "runtime-go/internal/runtime/store_test.go",
+      "source_sha256": "cc7ce464d39be164d8f46bb26d21a07fcd2b0757b1d14f90b73c2010e2b4e502",
+      "sha256": "cc7ce464d39be164d8f46bb26d21a07fcd2b0757b1d14f90b73c2010e2b4e502",
+      "bytes": 3088
+    },
+    {
+      "source": "project_micro_DSH/runtime-go/internal/runtime/upstream.go",
+      "path": "runtime-go/internal/runtime/upstream.go",
+      "source_sha256": "08643e4e4deb93b168b275fd0d3427ecfc5f2bcef0cb56713641e32a31453055",
+      "sha256": "08643e4e4deb93b168b275fd0d3427ecfc5f2bcef0cb56713641e32a31453055",
+      "bytes": 7955
+    },
+    {
+      "source": "project_micro_DSH/web-bot/app.mjs",
+      "path": "web-bot/app.mjs",
+      "source_sha256": "209c6126ccc540c8bfcd02aed12ee43ad3bebb98e695eb10e4f91f3eb9c2cb8e",
+      "sha256": "209c6126ccc540c8bfcd02aed12ee43ad3bebb98e695eb10e4f91f3eb9c2cb8e",
+      "bytes": 7828
+    },
+    {
+      "source": "project_micro_DSH/web-bot/index.html",
+      "path": "web-bot/index.html",
+      "source_sha256": "7874d64de025bc0265a2d4cdc8befd35ceb751e9399be00c518558b1b10882d4",
+      "sha256": "7874d64de025bc0265a2d4cdc8befd35ceb751e9399be00c518558b1b10882d4",
+      "bytes": 3093
+    },
+    {
+      "source": "project_micro_DSH/web-bot/styles.css",
+      "path": "web-bot/styles.css",
+      "source_sha256": "b10932b6c146a1bb0e3c1e32c129673b4f999160d37a1b82b309c9ea1ae67969",
+      "sha256": "b10932b6c146a1bb0e3c1e32c129673b4f999160d37a1b82b309c9ea1ae67969",
+      "bytes": 3679
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/index.html",
+      "path": "browser-ui/index.html",
+      "source_sha256": "4fdcd31b44ce81b33b95cf761036b2ae8d10c0ec55616b3ff8dedac681779209",
+      "sha256": "4fdcd31b44ce81b33b95cf761036b2ae8d10c0ec55616b3ff8dedac681779209",
+      "bytes": 425
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/package.json",
+      "path": "browser-ui/package.json",
+      "source_sha256": "7a155c454b043b37197548edf7760d0f4796f886f59faca27677412784bae3b9",
+      "sha256": "7a155c454b043b37197548edf7760d0f4796f886f59faca27677412784bae3b9",
+      "bytes": 472
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/pnpm-lock.yaml",
+      "path": "browser-ui/pnpm-lock.yaml",
+      "source_sha256": "efef37a569b6142f64882199216b8c4e065030438174ed3e5bac05c9b0f7b948",
+      "sha256": "efef37a569b6142f64882199216b8c4e065030438174ed3e5bac05c9b0f7b948",
+      "bytes": 16597
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/README.md",
+      "path": "browser-ui/README.md",
+      "source_sha256": "c41328f73f8ab14ec11222c12e862290aabf5d54b52135f4fb4c71897d763523",
+      "sha256": "72d40ade61b5c139b68f984c2a03ac13183e162cd046d54aac227ca6bceb6e4b",
+      "bytes": 1896
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/api.ts",
+      "path": "browser-ui/src/api.ts",
+      "source_sha256": "e739dcb05b6ec0b9140a476679dd193179851c10065f40605d7d37ad249cbd59",
+      "sha256": "e739dcb05b6ec0b9140a476679dd193179851c10065f40605d7d37ad249cbd59",
+      "bytes": 11460
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/App.tsx",
+      "path": "browser-ui/src/App.tsx",
+      "source_sha256": "16e33d21fcb22fad4472449164e2b8b1863e8384e3eebb1658aa22e2823e5af4",
+      "sha256": "16e33d21fcb22fad4472449164e2b8b1863e8384e3eebb1658aa22e2823e5af4",
+      "bytes": 30431
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/components/BrowserViewport.tsx",
+      "path": "browser-ui/src/components/BrowserViewport.tsx",
+      "source_sha256": "163942f97a269ae0561fa7ff9112a154d5663028715ccbcadf0385915108387d",
+      "sha256": "163942f97a269ae0561fa7ff9112a154d5663028715ccbcadf0385915108387d",
+      "bytes": 9484
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/components/ConnectionGate.tsx",
+      "path": "browser-ui/src/components/ConnectionGate.tsx",
+      "source_sha256": "91564ce24a24762117ec9c612cc1efc682a045449aae6f3c515ea417c4caf3f7",
+      "sha256": "91564ce24a24762117ec9c612cc1efc682a045449aae6f3c515ea417c4caf3f7",
+      "bytes": 2319
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/components/Icon.tsx",
+      "path": "browser-ui/src/components/Icon.tsx",
+      "source_sha256": "4e8633a9e06157ce71bb3a5231028a8b10cbbd6065600d6aabbce09246b9513d",
+      "sha256": "4e8633a9e06157ce71bb3a5231028a8b10cbbd6065600d6aabbce09246b9513d",
+      "bytes": 2791
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/components/ReviewPanel.tsx",
+      "path": "browser-ui/src/components/ReviewPanel.tsx",
+      "source_sha256": "76b418a3de2f8e77b5cd5de7ee3a3e95db849afa8bd5bbdc5776d4beb8bedad7",
+      "sha256": "76b418a3de2f8e77b5cd5de7ee3a3e95db849afa8bd5bbdc5776d4beb8bedad7",
+      "bytes": 8206
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/components/SessionSidebar.tsx",
+      "path": "browser-ui/src/components/SessionSidebar.tsx",
+      "source_sha256": "d322e02a6b8a9109feb387e84db12f3e9baa8a2ddcf4ddd13629d679634db61b",
+      "sha256": "d322e02a6b8a9109feb387e84db12f3e9baa8a2ddcf4ddd13629d679634db61b",
+      "bytes": 3754
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/format.ts",
+      "path": "browser-ui/src/format.ts",
+      "source_sha256": "104e58b75ce93015df1f48b03db230f50272363f7c6ecf3b7159df9f8f133d00",
+      "sha256": "104e58b75ce93015df1f48b03db230f50272363f7c6ecf3b7159df9f8f133d00",
+      "bytes": 5699
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/main.tsx",
+      "path": "browser-ui/src/main.tsx",
+      "source_sha256": "52f07705f0da74f01d8fb6575ff27a4da19d65c21c74304ab0c5c28508d6ddfc",
+      "sha256": "52f07705f0da74f01d8fb6575ff27a4da19d65c21c74304ab0c5c28508d6ddfc",
+      "bytes": 325
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/styles.css",
+      "path": "browser-ui/src/styles.css",
+      "source_sha256": "d983aa13022803633a1bb3d3cc7535f5aed0a4649bec50230c64da9d040e75b7",
+      "sha256": "d983aa13022803633a1bb3d3cc7535f5aed0a4649bec50230c64da9d040e75b7",
+      "bytes": 27990
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/types.ts",
+      "path": "browser-ui/src/types.ts",
+      "source_sha256": "6483558c538593986ba953e2d02c3d5f5e4af5ea74a5c1f68dc8a8f52a53d6a7",
+      "sha256": "6483558c538593986ba953e2d02c3d5f5e4af5ea74a5c1f68dc8a8f52a53d6a7",
+      "bytes": 1893
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/src/vite-env.d.ts",
+      "path": "browser-ui/src/vite-env.d.ts",
+      "source_sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/tsconfig.json",
+      "path": "browser-ui/tsconfig.json",
+      "source_sha256": "4576f805e206bf8bc63cee59dcf0f28215f9987f52fcc254c4fffe63648da2c2",
+      "sha256": "4576f805e206bf8bc63cee59dcf0f28215f9987f52fcc254c4fffe63648da2c2",
+      "bytes": 604
+    },
+    {
+      "source": "project_micro_DSH/browser-ui/vite.config.ts",
+      "path": "browser-ui/vite.config.ts",
+      "source_sha256": "d2921f50496cf1ac2b68c7eae19af6dc2ec3f14260e27624c232fc1740506784",
+      "sha256": "d2921f50496cf1ac2b68c7eae19af6dc2ec3f14260e27624c232fc1740506784",
+      "bytes": 238
+    },
+    {
+      "source": "project_micro_DSH/tests/adapter_metrics.test.mjs",
+      "path": "tests/adapter_metrics.test.mjs",
+      "source_sha256": "c5cab88cf9167fcbe0237fe4057e285951139d25b0687c6cd2867480d269783c",
+      "sha256": "c5cab88cf9167fcbe0237fe4057e285951139d25b0687c6cd2867480d269783c",
+      "bytes": 10681
+    },
+    {
+      "source": "project_micro_DSH/tests/adapters.test.mjs",
+      "path": "tests/adapters.test.mjs",
+      "source_sha256": "0b598f0355c00f827efa8ca87b8a37363215468a141d9e3fc915bc8139c51b3f",
+      "sha256": "0b598f0355c00f827efa8ca87b8a37363215468a141d9e3fc915bc8139c51b3f",
+      "bytes": 37223
+    },
+    {
+      "source": "project_micro_DSH/tests/appworld.test.mjs",
+      "path": "tests/appworld.test.mjs",
+      "source_sha256": "cf085d3b171b34a9513e2ba2193433907fe1fe94e60a00e3ce00c2ea958362b6",
+      "sha256": "cf085d3b171b34a9513e2ba2193433907fe1fe94e60a00e3ce00c2ea958362b6",
+      "bytes": 30198
+    },
+    {
+      "source": "project_micro_DSH/tests/appworld_bridge_test.py",
+      "path": "tests/appworld_bridge_test.py",
+      "source_sha256": "44820214b89ef0d9eaab420fb74d867ecba7c3d5134c9c27b27d360ebb095691",
+      "sha256": "44820214b89ef0d9eaab420fb74d867ecba7c3d5134c9c27b27d360ebb095691",
+      "bytes": 10132
+    },
+    {
+      "source": "project_micro_DSH/tests/bot-integration.test.mjs",
+      "path": "tests/bot-integration.test.mjs",
+      "source_sha256": "5200d38e0940b212813ce6047e7f5f20253344ea54c1b088ceaac015e203969d",
+      "sha256": "5200d38e0940b212813ce6047e7f5f20253344ea54c1b088ceaac015e203969d",
+      "bytes": 13966
+    },
+    {
+      "source": "project_micro_DSH/tests/bot-recovery.test.mjs",
+      "path": "tests/bot-recovery.test.mjs",
+      "source_sha256": "3bd7cdd96421578bd70146e0667e5b828abbf542f74fe59e64a36ff5401c3e65",
+      "sha256": "3bd7cdd96421578bd70146e0667e5b828abbf542f74fe59e64a36ff5401c3e65",
+      "bytes": 9710
+    },
+    {
+      "source": "project_micro_DSH/tests/bot-store.test.mjs",
+      "path": "tests/bot-store.test.mjs",
+      "source_sha256": "07f9c415439f1b78b49444438923cf1ac877e076ebc8de500a4420aaa59e3c5d",
+      "sha256": "07f9c415439f1b78b49444438923cf1ac877e076ebc8de500a4420aaa59e3c5d",
+      "bytes": 13443
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-driver.test.mjs",
+      "path": "tests/browser-driver.test.mjs",
+      "source_sha256": "11cbad0c84b3bf5f75508ff459d3f282e07c3de8f6e3e2f6253dfff6cd42d78a",
+      "sha256": "11cbad0c84b3bf5f75508ff459d3f282e07c3de8f6e3e2f6253dfff6cd42d78a",
+      "bytes": 8280
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-eval-evidence.test.mjs",
+      "path": "tests/browser-eval-evidence.test.mjs",
+      "source_sha256": "e211c936ca9409d3973108b84f35e1989779873ed978aa6e78530f57d1eb93dd",
+      "sha256": "2d231061e053cb47102c49a847f523883eaf5af51dc5b439536c9596143a446c",
+      "bytes": 8655
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-postgres.test.mjs",
+      "path": "tests/browser-postgres.test.mjs",
+      "source_sha256": "58fe41e6ce08a6fb905866a64ce1ab0eaa8033f567390cb964dd386b6a082ea9",
+      "sha256": "58fe41e6ce08a6fb905866a64ce1ab0eaa8033f567390cb964dd386b6a082ea9",
+      "bytes": 10424
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-provider.test.mjs",
+      "path": "tests/browser-provider.test.mjs",
+      "source_sha256": "b32cd8300fc6106e54360fbbcd2ad8d0c58e8fa8c24270dcfaff71c7f840fcba",
+      "sha256": "b32cd8300fc6106e54360fbbcd2ad8d0c58e8fa8c24270dcfaff71c7f840fcba",
+      "bytes": 3982
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-readonly-driver.test.mjs",
+      "path": "tests/browser-readonly-driver.test.mjs",
+      "source_sha256": "640abc20b94adc393015b37914774a87123f92ff41f59fd3fb383fea3464adfa",
+      "sha256": "640abc20b94adc393015b37914774a87123f92ff41f59fd3fb383fea3464adfa",
+      "bytes": 6603
+    },
+    {
+      "source": "project_micro_DSH/tests/browser-runtime.test.mjs",
+      "path": "tests/browser-runtime.test.mjs",
+      "source_sha256": "0c20729875226cbcffa3a1972f7542c5c7251751ef875da11459e962d820e2d2",
+      "sha256": "0c20729875226cbcffa3a1972f7542c5c7251751ef875da11459e962d820e2d2",
+      "bytes": 13039
+    },
+    {
+      "source": "project_micro_DSH/tests/coding-service.test.mjs",
+      "path": "tests/coding-service.test.mjs",
+      "source_sha256": "45a850a3b8ccff617aa9bc5bf1c41754077ca888dae5535d92e9d1184a988432",
+      "sha256": "45a850a3b8ccff617aa9bc5bf1c41754077ca888dae5535d92e9d1184a988432",
+      "bytes": 7225
+    },
+    {
+      "source": "project_micro_DSH/tests/core.test.mjs",
+      "path": "tests/core.test.mjs",
+      "source_sha256": "32aec32314a41e56d35f5ee189042b7b5b0dd0634f9bf9ff1adcb37d570254f8",
+      "sha256": "32aec32314a41e56d35f5ee189042b7b5b0dd0634f9bf9ff1adcb37d570254f8",
+      "bytes": 19067
+    },
+    {
+      "source": "project_micro_DSH/tests/desktop-backend.test.mjs",
+      "path": "tests/desktop-backend.test.mjs",
+      "source_sha256": "d065c20b4150d1c26012eeecb3c2c056b29068ea4931399393ff8ea07604ebaf",
+      "sha256": "aef987129e5b0d790c9ba0ea1461d9435ebd2c0e9e05647bcd1c45eacf044fd2",
+      "bytes": 9095
+    },
+    {
+      "source": "project_micro_DSH/tests/desktop-driver.test.mjs",
+      "path": "tests/desktop-driver.test.mjs",
+      "source_sha256": "81346864667811e8c50d5d35213114e2154aae6b3bb63695b62a1a51cd4895f9",
+      "sha256": "c512de324e620d27e1753c005150de56fc0858d2d5b828efc1999b3950f4033b",
+      "bytes": 9803
+    },
+    {
+      "source": "project_micro_DSH/tests/desktop-integration.test.mjs",
+      "path": "tests/desktop-integration.test.mjs",
+      "source_sha256": "5dcdfc5d8f5ae2647578e23699d22816298dc9dd27ebac93ddeb2f73da5055cb",
+      "sha256": "5dcdfc5d8f5ae2647578e23699d22816298dc9dd27ebac93ddeb2f73da5055cb",
+      "bytes": 10240
+    },
+    {
+      "source": "project_micro_DSH/tests/desktop-state.test.mjs",
+      "path": "tests/desktop-state.test.mjs",
+      "source_sha256": "b03edd534cd3e12e3e1578f68b1faeca6ee0d29f285ac17464ac9567a0b2735d",
+      "sha256": "b03edd534cd3e12e3e1578f68b1faeca6ee0d29f285ac17464ac9567a0b2735d",
+      "bytes": 2311
+    },
+    {
+      "source": "project_micro_DSH/tests/evaluate-saved-runs.test.mjs",
+      "path": "tests/evaluate-saved-runs.test.mjs",
+      "source_sha256": "9f7c0486f451a93059f3d91d52bb3962d305cde13a54f5e96a20032699cdb3e3",
+      "sha256": "9f7c0486f451a93059f3d91d52bb3962d305cde13a54f5e96a20032699cdb3e3",
+      "bytes": 4605
+    },
+    {
+      "source": "project_micro_DSH/tests/host.test.mjs",
+      "path": "tests/host.test.mjs",
+      "source_sha256": "f43a5ed18b9894a4cb704d34926502eef66da4a3b55359460e8872a029d4cf02",
+      "sha256": "f43a5ed18b9894a4cb704d34926502eef66da4a3b55359460e8872a029d4cf02",
+      "bytes": 2179
+    },
+    {
+      "source": "project_micro_DSH/tests/integration.test.mjs",
+      "path": "tests/integration.test.mjs",
+      "source_sha256": "a325e04bc9532fc240c4376bd0ee39d12c0b2f4694f94e474c8ce257e30ad19d",
+      "sha256": "9c5eb07127f4190949818bb56c6c3b27efe93ffeb788f9920eba3a5bead799e2",
+      "bytes": 2694
+    },
+    {
+      "source": "project_micro_DSH/tests/jev-choice-router.test.mjs",
+      "path": "tests/jev-choice-router.test.mjs",
+      "source_sha256": "93f35515c12d2bba6821242d0111791144b7d1e40988131727a0dcb21a33e28b",
+      "sha256": "93f35515c12d2bba6821242d0111791144b7d1e40988131727a0dcb21a33e28b",
+      "bytes": 7874
+    },
+    {
+      "source": "project_micro_DSH/tests/mcp.test.mjs",
+      "path": "tests/mcp.test.mjs",
+      "source_sha256": "ae1181271a5e71709ffe6f32ccb2c454d70931170295b96bea271fd859de173f",
+      "sha256": "ae1181271a5e71709ffe6f32ccb2c454d70931170295b96bea271fd859de173f",
+      "bytes": 14543
+    },
+    {
+      "source": "project_micro_DSH/tests/memory_metrics.test.mjs",
+      "path": "tests/memory_metrics.test.mjs",
+      "source_sha256": "4d843097cbb8341fa19cf7b01e95c7f30284ea82b3aade53dc69c9494e345770",
+      "sha256": "4d843097cbb8341fa19cf7b01e95c7f30284ea82b3aade53dc69c9494e345770",
+      "bytes": 9602
+    },
+    {
+      "source": "project_micro_DSH/tests/model-config.test.mjs",
+      "path": "tests/model-config.test.mjs",
+      "source_sha256": "8f7b986b645395b9c1008de92b5db7bfe2d2c47ce352346e4f90cbc16266e5f2",
+      "sha256": "8f7b986b645395b9c1008de92b5db7bfe2d2c47ce352346e4f90cbc16266e5f2",
+      "bytes": 9143
+    },
+    {
+      "source": "project_micro_DSH/tests/production-adapters.test.mjs",
+      "path": "tests/production-adapters.test.mjs",
+      "source_sha256": "5354ff80062fa02a3f940f3be14a9bdd77536ad3b5749789a76ec4d33b9976cc",
+      "sha256": "5354ff80062fa02a3f940f3be14a9bdd77536ad3b5749789a76ec4d33b9976cc",
+      "bytes": 7402
+    },
+    {
+      "source": "project_micro_DSH/tests/review.test.mjs",
+      "path": "tests/review.test.mjs",
+      "source_sha256": "18ed614260972d1a41971957c183f8e9c4b3e0a28f76e2009fb1479c5906c24f",
+      "sha256": "7884bd5b1d836f2c3b7de50c732945ee02040086f8e2f42830dace167004b309",
+      "bytes": 13160
+    },
+    {
+      "source": "project_micro_DSH/tests/security.test.mjs",
+      "path": "tests/security.test.mjs",
+      "source_sha256": "89062c69f60e0d89b15b6b3d904fe0fb9df6840080c7dfbb72f471f2c8b031a5",
+      "sha256": "89062c69f60e0d89b15b6b3d904fe0fb9df6840080c7dfbb72f471f2c8b031a5",
+      "bytes": 7302
+    },
+    {
+      "source": "project_micro_DSH/tests/service.test.mjs",
+      "path": "tests/service.test.mjs",
+      "source_sha256": "a82e558e76a89853e7e83647cc175713ae6ca06418c99c1d738f830803ffd5db",
+      "sha256": "a82e558e76a89853e7e83647cc175713ae6ca06418c99c1d738f830803ffd5db",
+      "bytes": 86402
+    },
+    {
+      "source": "project_micro_DSH/tests/supervisor.test.mjs",
+      "path": "tests/supervisor.test.mjs",
+      "source_sha256": "8b69242a033e725445346919aab1dc72e48ff2da352670f855b6ffa6de882e44",
+      "sha256": "8b69242a033e725445346919aab1dc72e48ff2da352670f855b6ffa6de882e44",
+      "bytes": 11745
+    },
+    {
+      "source": "project_micro_DSH/tests/upstream-adapter.test.mjs",
+      "path": "tests/upstream-adapter.test.mjs",
+      "source_sha256": "cd1ad54cec67ff32c6dd8d218fa61b688c631a0339af78b03c17068fd86d057a",
+      "sha256": "cd1ad54cec67ff32c6dd8d218fa61b688c631a0339af78b03c17068fd86d057a",
+      "bytes": 6595
+    },
+    {
+      "source": "project_micro_DSH/scripts/bot.mjs",
+      "path": "scripts/bot.mjs",
+      "source_sha256": "bd75426db4c1ac7948587c36bd408ca64bc8aa8048394675e8a58cd6778ee798",
+      "sha256": "bd75426db4c1ac7948587c36bd408ca64bc8aa8048394675e8a58cd6778ee798",
+      "bytes": 3513
+    },
+    {
+      "source": "project_micro_DSH/scripts/browser-state.mjs",
+      "path": "scripts/browser-state.mjs",
+      "source_sha256": "b6353b9e938b662c8f18f034d54c9af96fd61e69c8e3df349e63ba8ac7fbb9ab",
+      "sha256": "b6353b9e938b662c8f18f034d54c9af96fd61e69c8e3df349e63ba8ac7fbb9ab",
+      "bytes": 26993
+    },
+    {
+      "source": "project_micro_DSH/scripts/browser-supervisor.mjs",
+      "path": "scripts/browser-supervisor.mjs",
+      "source_sha256": "5c7c74b22407894002506b3739cc9191a7c0c46bfb43f2171b35f0c7c1e95909",
+      "sha256": "5c7c74b22407894002506b3739cc9191a7c0c46bfb43f2171b35f0c7c1e95909",
+      "bytes": 2231
+    },
+    {
+      "source": "project_micro_DSH/scripts/build.mjs",
+      "path": "scripts/build.mjs",
+      "source_sha256": "eb970374d6eca46ed039675286cfd2969bf4eaffcda3cc79f0f6c3e938824597",
+      "sha256": "eb970374d6eca46ed039675286cfd2969bf4eaffcda3cc79f0f6c3e938824597",
+      "bytes": 789
+    },
+    {
+      "source": "project_micro_DSH/scripts/check-tools.mjs",
+      "path": "scripts/check-tools.mjs",
+      "source_sha256": "6436a7ad75d4f4ab17b3281e8dcdbe3b7f2edd7c993d0938db34f1b929532805",
+      "sha256": "6436a7ad75d4f4ab17b3281e8dcdbe3b7f2edd7c993d0938db34f1b929532805",
+      "bytes": 935
+    },
+    {
+      "source": "project_micro_DSH/scripts/demo.mjs",
+      "path": "scripts/demo.mjs",
+      "source_sha256": "2ffd378847f42494eb5b429deeeaeb6fecd47465a4156435bf1c1b36ed78281e",
+      "sha256": "76c2b630275e3f81fe6728c73033f1f6c9b8e57258fc7b6b44adc21ce074098a",
+      "bytes": 5257
+    },
+    {
+      "source": "project_micro_DSH/scripts/host.mjs",
+      "path": "scripts/host.mjs",
+      "source_sha256": "dbe6980595ea72cbf7b994a35151d451a3bde37e9a40157935c6e4218a9fa84d",
+      "sha256": "dbe6980595ea72cbf7b994a35151d451a3bde37e9a40157935c6e4218a9fa84d",
+      "bytes": 5338
+    },
+    {
+      "source": "project_micro_DSH/scripts/install-browser-service.mjs",
+      "path": "scripts/install-browser-service.mjs",
+      "source_sha256": "11e2706f89cfc9436317aaef72f8aa908fc3194a954423050d0c309895c9fed1",
+      "sha256": "11e2706f89cfc9436317aaef72f8aa908fc3194a954423050d0c309895c9fed1",
+      "bytes": 5802
+    },
+    {
+      "source": "project_micro_DSH/scripts/package-desktop.mjs",
+      "path": "scripts/package-desktop.mjs",
+      "source_sha256": "d6dedefc6b1f41ce5aa543c4a413d1dfb54de3483e8eebf460eac694f805f0e0",
+      "sha256": "d6dedefc6b1f41ce5aa543c4a413d1dfb54de3483e8eebf460eac694f805f0e0",
+      "bytes": 4628
+    },
+    {
+      "source": "project_micro_DSH/scripts/review.mjs",
+      "path": "scripts/review.mjs",
+      "source_sha256": "4a8f06d2de1a853f08982deba5b312039c0e2265de58154f6f91b5f08f9fe715",
+      "sha256": "4a8f06d2de1a853f08982deba5b312039c0e2265de58154f6f91b5f08f9fe715",
+      "bytes": 11345
+    },
+    {
+      "source": "project_micro_DSH/scripts/serve.mjs",
+      "path": "scripts/serve.mjs",
+      "source_sha256": "a41d584f68a5bf26b57c55f5ab60b60313967d3f70f29e341778b3815175079e",
+      "sha256": "a41d584f68a5bf26b57c55f5ab60b60313967d3f70f29e341778b3815175079e",
+      "bytes": 7663
+    },
+    {
+      "source": "project_micro_DSH/scripts/test.mjs",
+      "path": "scripts/test.mjs",
+      "source_sha256": "8bb5be670062f38de3d91667fbfa271459b836401623c256c0a654ed5438f691",
+      "sha256": "8bb5be670062f38de3d91667fbfa271459b836401623c256c0a654ed5438f691",
+      "bytes": 691
+    },
+    {
+      "source": "project_micro_DSH/docs/ARCHITECTURE.md",
+      "path": "docs/ARCHITECTURE.md",
+      "source_sha256": "08c14f360fdf131bf69825336e577d91cf26d2f8ecd33fb6d10bf0a8016b3fdb",
+      "sha256": "387b220d0b6a2ce27d7eca5251e20baae40026ffc520073c653f55a471b09383",
+      "bytes": 3326
+    },
+    {
+      "source": "project_micro_DSH/docs/DESKTOP_BROWSER.md",
+      "path": "docs/DESKTOP_BROWSER.md",
+      "source_sha256": "038f47c03fbda08e65bdc65e9ee4d4626ea7ebe0464c2be8bd2ebc4b14469dfe",
+      "sha256": "038f47c03fbda08e65bdc65e9ee4d4626ea7ebe0464c2be8bd2ebc4b14469dfe",
+      "bytes": 5791
+    },
+    {
+      "source": "project_micro_DSH/docs/GO_RUNTIME.md",
+      "path": "docs/GO_RUNTIME.md",
+      "source_sha256": "423fbfaef483b7455b4f3e92f8791e4d68887e7ee68222d2c938b96304e21dbd",
+      "sha256": "cec06e1ec3f9ce177ca9c76a850cfe53611fbf29655741c0cad180499804f8e0",
+      "bytes": 6135
+    },
+    {
+      "source": "project_micro_DSH/docs/INTEGRATION.md",
+      "path": "docs/INTEGRATION.md",
+      "source_sha256": "b2c2dc96330e9ba804e06c8f704de4cfe297039570f55120a33c70df492d81d1",
+      "sha256": "b2c2dc96330e9ba804e06c8f704de4cfe297039570f55120a33c70df492d81d1",
+      "bytes": 2433
+    },
+    {
+      "source": "project_micro_DSH/docs/JEV_AUTO_ROUTING.md",
+      "path": "docs/JEV_AUTO_ROUTING.md",
+      "source_sha256": "43587f4ee35454e2d1af2318f6d44e0a2bfab685d0479e7b2ac26e9065d3c9f8",
+      "sha256": "43587f4ee35454e2d1af2318f6d44e0a2bfab685d0479e7b2ac26e9065d3c9f8",
+      "bytes": 5856
+    },
+    {
+      "source": "project_micro_DSH/docs/MCP.md",
+      "path": "docs/MCP.md",
+      "source_sha256": "060fd51634575bacfc0d5036b2d7fc1b89292753e241a472b737518c10b5a1e7",
+      "sha256": "af7e913736cec51139e7acfea1b1426b2e5679a8c7a50ddea81b8c56cbec45e5",
+      "bytes": 5830
+    },
+    {
+      "source": "project_micro_DSH/docs/PERSISTENT_BOT.md",
+      "path": "docs/PERSISTENT_BOT.md",
+      "source_sha256": "9f42fed521d471db191a55320dfdc1350cf054465621e11d893641ff6ddb43ad",
+      "sha256": "a3cd89a3f46aefc8af7e2ce89412d29680935d1402bcc43338b9b6bb5e9d39dd",
+      "bytes": 5462
+    },
+    {
+      "source": "project_micro_DSH/docs/PR_REVIEW.md",
+      "path": "docs/PR_REVIEW.md",
+      "source_sha256": "4807a0693154bd46c4a232c0629691b8fb668795c354cbe1c76efab270686584",
+      "sha256": "4807a0693154bd46c4a232c0629691b8fb668795c354cbe1c76efab270686584",
+      "bytes": 3799
+    },
+    {
+      "source": "project_micro_DSH/docs/PROTOCOL_ADAPTER.md",
+      "path": "docs/PROTOCOL_ADAPTER.md",
+      "source_sha256": "de5f0408cf9227bea6df259d0cd593d8c2f0a079463efbfffa4916650de6d79e",
+      "sha256": "de5f0408cf9227bea6df259d0cd593d8c2f0a079463efbfffa4916650de6d79e",
+      "bytes": 3537
+    },
+    {
+      "source": "project_micro_DSH/docs/SERVICE.md",
+      "path": "docs/SERVICE.md",
+      "source_sha256": "06c8fb4644180ff4a2629dd4fdcfd87e97291f71c33051915e032adc4465c6ca",
+      "sha256": "6d84219b4263e2feccfcaf084401a0efad76a205d23a1f0bd74fdc656c19b911",
+      "bytes": 18271
+    },
+    {
+      "source": "project_micro_DSH/docs/TOOL_EXECUTION.md",
+      "path": "docs/TOOL_EXECUTION.md",
+      "source_sha256": "0203054a5a1d26d94f7630db682006bc6cb17ec307ab757fed08beaef252c9b7",
+      "sha256": "0203054a5a1d26d94f7630db682006bc6cb17ec307ab757fed08beaef252c9b7",
+      "bytes": 4541
+    },
+    {
+      "source": "project_micro_DSH/benchmarks/appworld/runner.mjs",
+      "path": "benchmarks/appworld/runner.mjs",
+      "source_sha256": "e47815531e1d93512c45302d8cc104d02c19095ead8ed577ab7fe69e91d65f64",
+      "sha256": "e47815531e1d93512c45302d8cc104d02c19095ead8ed577ab7fe69e91d65f64",
+      "bytes": 29182
+    },
+    {
+      "source": "project_micro_DSH/benchmarks/appworld/plan.template.json",
+      "path": "benchmarks/appworld/plan.template.json",
+      "source_sha256": "f4fdb0781ae85d43768be7957204ab4f6852cc5c6c04a4755f3b07e77d2babef",
+      "sha256": "f4fdb0781ae85d43768be7957204ab4f6852cc5c6c04a4755f3b07e77d2babef",
+      "bytes": 877
+    },
+    {
+      "source": "project_micro_DSH/benchmarks/appworld/bridge.py",
+      "path": "benchmarks/appworld/bridge.py",
+      "source_sha256": "18694bc651fa4112a2ad320be2208e0feb8c0d0628e88cd621760fb8604f12e2",
+      "sha256": "18694bc651fa4112a2ad320be2208e0feb8c0d0628e88cd621760fb8604f12e2",
+      "bytes": 22328
+    },
+    {
+      "source": "project_micro_DSH/benchmarks/browser_task_eval_20261029/evidence.mjs",
+      "path": "benchmarks/browser_task_eval_20261029/evidence.mjs",
+      "source_sha256": "fde9e510a136d9086df6da571e93e55b47d33d6e5e6598b5eaeb77947e04462a",
+      "sha256": "121ff97a36f3c1a488c27bbb56d9b9dbf7bd640c10c3f93922ab610428f1bed7",
+      "bytes": 25366
+    },
+    {
+      "source": "project_micro_DSH/benchmarks/evaluate_saved_runs.mjs",
+      "path": "benchmarks/evaluate_saved_runs.mjs",
+      "source_sha256": "2ade4653943a444f3f269e8c9557c6b24cf55c212c9593433e82339aa71b898e",
+      "sha256": "2ade4653943a444f3f269e8c9557c6b24cf55c212c9593433e82339aa71b898e",
+      "bytes": 17248
+    },
+    {
+      "source": "generated:benchmarks/__init__.py",
+      "path": "benchmarks/__init__.py",
+      "source_sha256": null,
+      "sha256": "513effad8471caf57a8a7e4242f7c05e041c0a479399b776de5e24bcb4f7c994",
+      "bytes": 77
+    },
+    {
+      "source": "generated:benchmarks/appworld/__init__.py",
+      "path": "benchmarks/appworld/__init__.py",
+      "source_sha256": null,
+      "sha256": "7fbef3154824f1dfc6759d35d6d2077ddcf8c41f680d70de3a5dd580b6935f0e",
+      "bytes": 74
+    }
+  ],
+  "file_count": 162,
+  "total_bytes": 1753279,
+  "privacy_scan_findings": [],
+  "project_tests_executed": false,
+  "historical_doc_link_adaptations": [
+    {
+      "path": "browser-ui/README.md",
+      "excluded_reference": "../checks/browser_workspace_20261028_static_v1/static_validation.json"
+    },
+    {
+      "path": "browser-ui/README.md",
+      "excluded_reference": "../docs/BROWSER_UI_20261028.md"
+    },
+    {
+      "path": "docs/GO_RUNTIME.md",
+      "excluded_reference": "../evidence/20261024_go_runtime_cpu_v2/test.log"
+    },
+    {
+      "path": "docs/GO_RUNTIME.md",
+      "excluded_reference": "../../project_CreatorDesk/docs/JAVA_GO_RESULTS_20261024.md"
+    },
+    {
+      "path": "docs/GO_RUNTIME.md",
+      "excluded_reference": "../../project_CreatorDesk/docs/JAVA_GO_LOCAL_STACK.md"
+    },
+    {
+      "path": "docs/MCP.md",
+      "excluded_reference": "CODING_GUARD_MCP_RESULTS_20261019.md"
+    },
+    {
+      "path": "docs/PERSISTENT_BOT.md",
+      "excluded_reference": "PERSISTENT_BOT_RESULTS_20261022.md"
+    },
+    {
+      "path": "docs/SERVICE.md",
+      "excluded_reference": "../checks/2026-10-19_service_smoke_rerun.json"
+    }
+  ],
+  "notes": [
+    "Source packaging and static inspection only.",
+    "Source paths are repository/workspace-relative provenance, not runtime dependencies."
+  ]
+}

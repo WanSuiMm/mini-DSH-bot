@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "execution_authorized": false,
+  "upstream_revision": "42b5bcf3cd334fee33f0c37c02070a9f5807add5",
+  "split": "dev",
+  "task_ids": [],
+  "strategies": ["single", "multi"],
+  "runtime_identity": null,
+  "budget": {"max_tokens": 65536, "max_tool_calls": 64, "max_duration_ms": 300000},
+  "max_runs": 2,
+  "max_total_tokens": 131072,
+  "model": {
+    "provider": "DeepSeek official API",
+    "base_url": "https://api.deepseek.com",
+    "model_id": "deepseek-flash",
+    "streaming": true,
+    "model_revision": "FILL_FROM_PROVIDER_BEFORE_RUN",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "max_context_tokens": 32768,
+    "max_output_tokens": 2048
+  },
+  "note": "Preparation template, not an approved run. Select official task IDs; freeze revision, dataset manifest and spend budget before model execution. Old commerce/memory budget is not inherited."
+}

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'" />
+    <title>mini-DSH Browser</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell" id="app-shell">
+      <header class="browser-chrome" aria-label="浏览器工具栏">
+        <div class="tab-strip">
+          <div class="brand-lockup" aria-label="mini-DSH Browser">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 28 28" fill="none">
+                <path d="M14 3.2 17 10l7.2 1.5-5.4 5 1.1 7.3L14 20.2l-5.9 3.6 1.1-7.3-5.4-5L11 10l3-6.8Z" fill="currentColor" />
+                <circle cx="14" cy="13.9" r="2.2" fill="#fff" />
+              </svg>
+            </span>
+            <span class="brand-name">DSH</span>
+          </div>
+          <div class="tab-list" id="tab-list" role="tablist" aria-label="打开的标签页"></div>
+          <button class="icon-button new-tab-button" id="new-tab-button" type="button" data-action="tab-new" aria-label="新建标签页" title="新建标签页">
+            <span class="icon-slot" data-icon="plus" aria-hidden="true"></span>
+          </button>
+          <div class="tab-strip-trailing" aria-hidden="true">
+            <span class="local-mark"><span class="local-mark-dot"></span>本机浏览</span>
+          </div>
+        </div>
+
+        <div class="nav-strip">
+          <div class="nav-controls" aria-label="网页导航">
+            <button class="icon-button nav-button" id="back-button" type="button" data-action="tab-back" aria-label="后退" title="后退">
+              <span class="icon-slot" data-icon="back" aria-hidden="true"></span>
+            </button>
+            <button class="icon-button nav-button" id="forward-button" type="button" data-action="tab-forward" aria-label="前进" title="前进">
+              <span class="icon-slot" data-icon="forward" aria-hidden="true"></span>
+            </button>
+            <button class="icon-button nav-button" id="reload-button" type="button" data-action="tab-reload" aria-label="重新加载" title="重新加载">
+              <span class="icon-slot" data-icon="reload" aria-hidden="true"></span>
+            </button>
+            <button class="icon-button nav-button stop-button" id="stop-button" type="button" data-action="tab-stop" aria-label="停止加载" title="停止加载" hidden>
+              <span class="icon-slot" data-icon="stop" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <form class="address-form" id="address-form" role="search">
+            <span class="address-leading" id="address-leading" aria-hidden="true"><span class="icon-slot" data-icon="globe"></span></span>
+            <input id="address-input" name="address" type="text" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="搜索或输入网址" aria-label="搜索或输入网址" />
+            <button class="address-submit" type="submit" aria-label="打开网址" title="打开网址">
+              <span class="icon-slot" data-icon="enter" aria-hidden="true"></span>
+            </button>
+          </form>
+
+          <div class="nav-actions">
+            <button class="connection-chip" id="connection-chip" type="button" data-action="open-settings" aria-label="Agent 连接设置" title="打开 Agent 连接设置">
+              <span class="connection-dot" aria-hidden="true"></span>
+              <span id="connection-chip-label">Agent 未连接</span>
+            </button>
+            <button class="agent-toggle" id="agent-toggle" type="button" data-action="sidebar-toggle" aria-pressed="true" aria-label="切换 Agent 侧栏" title="切换 Agent 侧栏">
+              <span class="icon-slot" data-icon="sparkles" aria-hidden="true"></span>
+              <span>Agent</span>
+            </button>
+          </div>
+        </div>
+        <div class="page-progress" id="page-progress" aria-hidden="true" hidden><span></span></div>
+      </header>
+
+      <main class="workspace" id="workspace">
+        <section class="page-host" id="page-host" aria-label="当前网页"></section>
+
+        <aside class="agent-sidebar" id="agent-sidebar" aria-label="Agent 工作台">
+          <div class="sidebar-heading">
+            <div class="sidebar-title-group">
+              <span class="agent-emblem" aria-hidden="true"><span class="icon-slot" data-icon="sparkles"></span></span>
+              <div class="sidebar-heading-copy">
+                <div class="sidebar-title-line"><h1>Agent 工作台</h1><span class="built-in-tag">内置</span></div>
+                <p id="sidebar-subtitle">浏览网页，或把目标交给 Agent</p>
+              </div>
+            </div>
+            <button class="icon-button settings-button" type="button" data-action="open-settings" aria-label="Agent 设置" title="Agent 设置">
+              <span class="icon-slot" data-icon="settings" aria-hidden="true"></span>
+            </button>
+          </div>
+
+          <div class="sidebar-scroll" id="sidebar-scroll">
+            <section class="control-card" aria-labelledby="control-heading">
+              <div class="control-card-top">
+                <span class="mode-indicator" id="mode-indicator"><span class="mode-dot"></span><span id="mode-label">你正在浏览</span></span>
+                <span class="browser-context" id="browser-context">当前标签页</span>
+              </div>
+              <h2 id="control-heading">页面控制权</h2>
+              <p class="control-caption" id="control-caption">你可以随时浏览、登录并切换网页。Agent 只会在你提交任务后开始操作。</p>
+              <div class="control-actions" id="control-actions"></div>
+            </section>
+
+            <section class="task-section" aria-labelledby="task-section-title">
+              <div class="section-heading-row">
+                <div class="section-heading-copy">
+                  <span class="section-eyebrow">本页任务</span>
+                  <h2 id="task-section-title">任务进度</h2>
+                </div>
+                <span class="task-count" id="task-count">0</span>
+              </div>
+              <div class="task-list" id="task-list"></div>
+            </section>
+
+            <section class="approval-section" id="approval-section" aria-labelledby="approval-title" hidden>
+              <div class="section-heading-row approval-heading-row">
+                <div class="approval-heading-mark" aria-hidden="true"><span class="icon-slot" data-icon="shield"></span></div>
+                <div class="section-heading-copy">
+                  <span class="section-eyebrow">需要你的确认</span>
+                  <h2 id="approval-title">待确认操作</h2>
+                </div>
+                <span class="approval-count" id="approval-count">0</span>
+              </div>
+              <div class="approval-list" id="approval-list"></div>
+            </section>
+
+            <section class="recent-section" id="recent-section" aria-labelledby="recent-title" hidden>
+              <div class="section-heading-row recent-heading-row">
+                <div class="section-heading-copy">
+                  <span class="section-eyebrow">可继续的执行</span>
+                  <h2 id="recent-title">最近任务</h2>
+                </div>
+              </div>
+              <div class="recent-list" id="recent-list"></div>
+            </section>
+          </div>
+
+          <form class="composer" id="composer-form">
+            <div class="composer-label-row">
+              <label for="prompt-input">告诉 Agent 你想完成什么</label>
+              <span class="composer-context" id="composer-context">当前网页</span>
+            </div>
+            <textarea id="prompt-input" rows="3" maxlength="12000" placeholder="例如：整理这个页面的要点，并附上来源链接"></textarea>
+            <div class="composer-footer">
+              <span class="composer-note" id="composer-note"><span class="icon-slot" data-icon="info" aria-hidden="true"></span><span>操作前会显示具体内容供你确认</span></span>
+              <button class="submit-button" id="submit-button" type="submit">
+                <span id="submit-label">开始任务</span>
+                <span class="icon-slot" data-icon="arrow-up" aria-hidden="true"></span>
+              </button>
+            </div>
+          </form>
+        </aside>
+      </main>
+
+      <footer class="status-bar" aria-label="浏览器状态">
+        <div class="status-left">
+          <span class="status-mark" id="page-status-mark" aria-hidden="true"><span class="icon-slot" data-icon="globe"></span></span>
+          <span id="page-status-text">网页就绪</span>
+        </div>
+        <div class="status-right">
+          <span class="download-count" id="download-count" hidden><span class="icon-slot" data-icon="download" aria-hidden="true"></span><span id="download-count-text">0 个下载</span></span>
+          <span class="status-divider" aria-hidden="true"></span>
+          <span>安全浏览</span>
+          <span class="status-secure-dot" aria-hidden="true"></span>
+        </div>
+      </footer>
+    </div>
+
+    <dialog class="settings-dialog" id="settings-dialog" aria-labelledby="settings-title">
+      <form class="settings-form" id="settings-form">
+        <div class="dialog-heading">
+          <span class="dialog-mark" aria-hidden="true"><span class="icon-slot" data-icon="sparkles"></span></span>
+          <div class="dialog-title-copy">
+            <span class="dialog-eyebrow">可选设置</span>
+            <h2 id="settings-title">连接内置 Agent</h2>
+          </div>
+          <button class="icon-button dialog-close" type="button" data-action="close-settings" aria-label="关闭设置" title="关闭">
+            <span class="icon-slot" data-icon="close" aria-hidden="true"></span>
+          </button>
+        </div>
+        <p class="dialog-description">浏览器无需连接模型也能正常使用。连接后，你可以让 Agent 在当前网页上协助完成任务。</p>
+        <p class="dialog-description">每个任务默认最多 15 分钟、64 次工具调用和 65,536 Token；等待确认也计入时限。</p>
+        <div class="settings-fields">
+          <label class="field-group" for="base-url-input">
+            <span>兼容接口地址</span>
+            <span class="field-shell"><span class="field-prefix icon-slot" data-icon="link" aria-hidden="true"></span><input id="base-url-input" type="url" placeholder="https://api.deepseek.com/chat/completions" autocomplete="off" /></span>
+            <small>填写完整 Chat Completions 地址，沿用 mini-DSH 的模型适配器。</small>
+          </label>
+          <label class="field-group" for="model-input">
+            <span>模型名称</span>
+            <span class="field-shell"><span class="field-prefix icon-slot" data-icon="layers" aria-hidden="true"></span><input id="model-input" type="text" placeholder="例如 deepseek-flash" autocomplete="off" /></span>
+          </label>
+          <label class="field-group" for="api-key-input">
+            <span class="field-label-with-note">API 密钥 <span>仅本次输入使用</span></span>
+            <span class="field-shell"><span class="field-prefix icon-slot" data-icon="key" aria-hidden="true"></span><input id="api-key-input" type="password" placeholder="粘贴访问密钥" autocomplete="new-password" /></span>
+            <small>密钥只在本次连接时传递，不写入浏览器存储。</small>
+          </label>
+          <label class="field-group" for="thinking-mode-input">
+            <span>思考模式</span>
+            <span class="field-shell select-shell"><span class="field-prefix icon-slot" data-icon="sparkles" aria-hidden="true"></span><select id="thinking-mode-input"><option value="disabled">关闭</option><option value="enabled">开启</option></select><span class="icon-slot select-chevron" data-icon="chevron-down" aria-hidden="true"></span></span>
+          </label>
+        </div>
+        <p class="settings-error" id="settings-error" role="alert" hidden></p>
+        <div class="dialog-actions">
+          <button class="dialog-cancel" type="button" data-action="close-settings">稍后再说</button>
+          <button class="dialog-save" id="settings-save" type="submit"><span>保存连接</span><span class="icon-slot" data-icon="arrow-right" aria-hidden="true"></span></button>
+        </div>
+      </form>
+    </dialog>
+
+    <div class="toast-region" id="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

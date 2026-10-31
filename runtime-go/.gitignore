@@ -1,0 +1,6 @@
+/bin/
+/._cache/
+/data/
+/.env
+/.env.*
+/runtime-config*.json

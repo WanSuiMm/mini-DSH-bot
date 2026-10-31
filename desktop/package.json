@@ -1,0 +1,15 @@
+{
+  "name": "mini-dsh-browser",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "main": "start.mjs",
+  "description": "Chromium desktop browser with the mini-DSH task harness",
+  "scripts": {
+    "start": "electron .",
+    "package:win": "node ../scripts/package-desktop.mjs --platform=win32"
+  },
+  "devDependencies": {
+    "electron": "45.1.0"
+  }
+}
