@@ -1,5 +1,11 @@
 # Jev auto routing
 
+## Project timeline and later author-reported measurement
+
+The author-provided timeline identifies 2026.02–2026.05 as the main development period and 2026.09–2026.10 as the Jev routing extension. These dates come from the author's résumé history; they are not established by repository commit history.
+
+The original publication revision recorded static checks only and no measured improvement. On 2026-10-31, the author later confirmed a self-test reporting 46% lower routing-decision time under the same configuration. This is a routing-stage measurement only, not an end-to-end latency result. The report did not include sample count, absolute times, mean/P50/P95, or the baseline routing category. This entry records the author report and is not a Codex independent rerun.
+
 ## Purpose and boundary
 
 The service can make one optional upstream Choice decision for a run submitted with `mode: "auto"`. Jev chooses only between host-authored `single` and `multi` candidates. The selected mode then uses the existing `AgentLoop`, planner, and bounded `Supervisor`; this does not replace DAG scheduling or call Jev for every task step.
@@ -51,7 +57,7 @@ On cancellation during routing, `run.mode_route_cancelled` records whether the t
 
 Mock-only tests are in `tests/jev-choice-router.test.mjs` and the service integration cases are in `tests/service.test.mjs`. They cover the request contract, host-only choices, low-confidence and invalid-choice fallback, rule bypass, transport errors, response size, timeout and cancellation through a pending body, explicit opt-in, persisted routing, budget accounting, and idempotent replay.
 
-This publication pass performs static type/syntax checks only; the new functional mock cases have not been executed because the designated test server was unavailable. No live TypeSafe request or performance comparison has been run. The integration does not establish a speedup or task-quality improvement. Use the normal project test entry in an authorized environment after review:
+At the original publication revision, the package recorded static type/syntax checks only; the new functional mock cases had not been executed because the designated test server was unavailable, and no live TypeSafe request or performance comparison had been recorded. The later author-reported routing-time result above does not establish end-to-end latency, provider-cost, or task-quality improvement. Use the normal project test entry in an authorized environment after review:
 
 ```powershell
 node scripts/test.mjs

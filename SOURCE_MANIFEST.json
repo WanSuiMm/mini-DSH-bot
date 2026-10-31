@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "project": "mini-DSH-bot",
-  "prepared_on": "2026-10-31",
+  "prepared_on": "2026-11-01",
   "files": [
     {
       "source": "project_micro_DSH/github_public/README.md",
       "path": "README.md",
-      "source_sha256": "be184b64f8dd5bfe8afb49b3a427f962a3228dd495a0a3fffaad1f6f96ee153f",
-      "sha256": "be184b64f8dd5bfe8afb49b3a427f962a3228dd495a0a3fffaad1f6f96ee153f",
-      "bytes": 3855
+      "source_sha256": "a66e406dd0528a3f8c053ad12d3f11ac2f2f8c52206c09a1c482f2f6376ffca2",
+      "sha256": "a66e406dd0528a3f8c053ad12d3f11ac2f2f8c52206c09a1c482f2f6376ffca2",
+      "bytes": 4295
     },
     {
       "source": "project_micro_DSH/github_public/GPT_CONTEXT.md",
       "path": "GPT_CONTEXT.md",
-      "source_sha256": "039a991c71ba7efe0fb9270aee8779a647bfc9848201377324688bcf0bd4fba8",
-      "sha256": "039a991c71ba7efe0fb9270aee8779a647bfc9848201377324688bcf0bd4fba8",
-      "bytes": 1803
+      "source_sha256": "541ecf0b33cfe695a9cad2df2734e4a7c2660abfbf355a9f67830e98931c2bc7",
+      "sha256": "541ecf0b33cfe695a9cad2df2734e4a7c2660abfbf355a9f67830e98931c2bc7",
+      "bytes": 2447
     },
     {
       "source": "project_micro_DSH/github_public/ARCHITECTURE.md",
@@ -27,9 +27,9 @@
     {
       "source": "project_micro_DSH/github_public/RESULTS.md",
       "path": "RESULTS.md",
-      "source_sha256": "8f77d8cf3fb4895a05d0df217ffed2859b03bbf3f350a241f645c835dff2ad49",
-      "sha256": "8f77d8cf3fb4895a05d0df217ffed2859b03bbf3f350a241f645c835dff2ad49",
-      "bytes": 2419
+      "source_sha256": "9888829d3bb2819599255cda9fd7f149c5c18b8287f697e30779930aec60de38",
+      "sha256": "9888829d3bb2819599255cda9fd7f149c5c18b8287f697e30779930aec60de38",
+      "bytes": 3110
     },
     {
       "source": "project_micro_DSH/github_public/.gitignore",
@@ -1042,9 +1042,9 @@
     {
       "source": "project_micro_DSH/docs/JEV_AUTO_ROUTING.md",
       "path": "docs/JEV_AUTO_ROUTING.md",
-      "source_sha256": "43587f4ee35454e2d1af2318f6d44e0a2bfab685d0479e7b2ac26e9065d3c9f8",
-      "sha256": "43587f4ee35454e2d1af2318f6d44e0a2bfab685d0479e7b2ac26e9065d3c9f8",
-      "bytes": 5856
+      "source_sha256": "e7d56adf097fa6337e0b032eb922f3c80e68497ac411d72862ff5ff098257f9d",
+      "sha256": "e7d56adf097fa6337e0b032eb922f3c80e68497ac411d72862ff5ff098257f9d",
+      "bytes": 6736
     },
     {
       "source": "project_micro_DSH/docs/MCP.md",
@@ -1139,7 +1139,7 @@
     }
   ],
   "file_count": 162,
-  "total_bytes": 1753279,
+  "total_bytes": 1755934,
   "privacy_scan_findings": [],
   "project_tests_executed": false,
   "historical_doc_link_adaptations": [
@@ -1178,6 +1178,7 @@
   ],
   "notes": [
     "Source packaging and static inspection only.",
-    "Source paths are repository/workspace-relative provenance, not runtime dependencies."
+    "Source paths are repository/workspace-relative provenance, not runtime dependencies.",
+    "2026-11-01: Markdown timeline and measurement-cohort clarification only; implementation and saved experiment results unchanged."
   ]
 }

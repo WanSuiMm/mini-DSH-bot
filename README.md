@@ -4,6 +4,10 @@
 
 项目参考 DeepSeek Harness 的工具调度，自己实现 Electron 宿主、MCP 接线、执行守卫、Supervisor–Worker DAG、记忆与持久任务控制面。上游移植范围见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。Grok Bot 仅为产品交互参考，没有复用其代码。
 
+## 项目时间线（作者提供）
+
+主体开发时间为 2026.02—2026.05，Jev 路由扩展时间为 2026.09—2026.10；后续路由耗时自测与早期主体开发分开记录，见 [RESULTS.md](RESULTS.md)。
+
 ## 从这里开始
 
 1. [ARCHITECTURE.md](ARCHITECTURE.md)：桌面、模型、工具、任务与存储的责任边界。
@@ -17,7 +21,7 @@
 - **Agent 执行**：结构化工具调用、MCP stdio / Streamable HTTP、工具白名单、受限只读并发、超时与取消。权限检查由代码执行。
 - **多 Agent 与记忆**：宿主提交的 DAG、依赖结果传递、独立上下文和预算；会话／账户记忆命名空间、TTL、显式笔记与检索。
 - **持久控制面**：Fastify API、SQLite/PostgreSQL、SSE 重放、幂等 Run；Go SQLite 队列提供 owner 配额和不确定提交的显式对账。
-- **可选 Jev 路由**：在明确启用的入口作一次结构化选择，保留单 Agent／多 Agent的显式模式。它不替代 DAG 调度、权限检查或人工审批；当前没有延迟／费用改善结论。
+- **可选 Jev 路由**：在明确启用的入口作一次结构化选择，保留单 Agent／多 Agent的显式模式。它不替代 DAG 调度、权限检查或人工审批。作者于 2026-10-31 补报的同配置自测显示路由决策耗时降低 46%；该结果只涉及路由决策阶段，不代表端到端延迟改善。样本数、绝对耗时、均值/P50/P95 和基线路由类别未提供，详见 [RESULTS.md](RESULTS.md)。
 
 ## 安装与桌面启动
 
